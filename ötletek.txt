@@ -1,0 +1,8 @@
+opció:
+háttér térkép beállítására lehetőség
+
+nehézség állítása:
+legyen a háttéren kiírva az adott városrész neve vagy nem
+
+tanulás mód:
+amire rákattintasz, kiíródik
