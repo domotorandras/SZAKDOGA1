@@ -1,0 +1,135 @@
+html, body {
+    min-width: 450px;
+    height: 100%;
+    overflow: hidden;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', sans-serif;
+}
+
+#panorama {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    z-index: 0;
+    opacity: 0.7;
+}
+
+.container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 90%;
+    max-width: 700px;
+    max-height: 80vh;
+    background: rgba(0, 0, 0, 0.7);
+    padding: 30px;
+    border-radius: 16px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+    z-index: 1;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+h1 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+h2 {
+    font-size: 1.4rem;
+    margin: 20px 0 10px;
+    color: #00bfff;
+}
+
+.content {
+    overflow-y: auto;
+    padding-right: 10px;
+    margin-bottom: 20px;
+    max-height: 55vh;
+}
+
+.styled-list, .styled-sublist {
+    list-style: none;
+    padding-left: 0;
+    margin: 0;
+}
+
+.styled-list li,
+.styled-sublist li {
+    padding-left: 1.5em;
+    position: relative;
+    margin-bottom: 10px;
+    line-height: 1.4;
+}
+
+.styled-list li::before {
+    content: "•";
+    position: absolute;
+    left: 0;
+    color: #00bfff;
+    font-size: 1.2em;
+    line-height: 1;
+}
+
+.styled-sublist li {
+    font-size: 0.95rem;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.color-swatch {
+    width: 12px;
+    height: 12px;
+    display: inline-block;
+    border-radius: 3px;
+    margin-right: 5px;
+}
+
+.white { background: white; }
+.yellow { background: yellow; }
+.orange { background: orange; }
+.red { background: red; }
+
+.button-wrapper {
+    text-align: center;
+}
+
+#menubutton {
+    width: 220px;
+    padding: 12px 24px;
+    font-size: 1rem;
+    border-radius: 8px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.1s ease;
+}
+
+#menubutton:hover {
+    background-color: #0056b3;
+}
+
+#menubutton:active {
+    transform: scale(0.95);
+}
+
+/* Scrollbar styling (optional) */
+.content::-webkit-scrollbar {
+    width: 8px;
+}
+.content::-webkit-scrollbar-thumb {
+    background: rgba(255, 255, 255, 0.3);
+    border-radius: 4px;
+}

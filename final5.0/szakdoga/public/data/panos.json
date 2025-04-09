@@ -1,0 +1,269 @@
+{
+    "panos": [
+        {   
+            "id": 1,
+            "name": "hosokTere",
+            "coords": "47.514925, 19.077782"
+        },
+        {   
+            "id": 2,
+            "name": "kossuthLajosTer",
+            "coords": "47.507045, 19.047128"
+        },
+        {   
+            "id": 3,
+            "name": "vorosmartyTer",
+            "coords": "47.496460, 19.050652"
+        },
+        {   
+            "id": 4,
+            "name": "deakFerencTer",
+            "coords": "47.497440, 19.054325"
+        },
+        {   
+            "id": 5,
+            "name": "batthyanyTer",
+            "coords": "47.506259, 19.038455"
+        },
+        {   
+            "id": 6,
+            "name": "szabadsagTer",
+            "coords": "47.504462, 19.050341"
+        },
+        {   
+            "id": 7,
+            "name": "moriczZsigmondKorter",
+            "coords": "47.477645, 19.047323"
+        },
+        {   
+            "id": 8,
+            "name": "kalvinTer",
+            "coords": "47.489682, 19.061916"
+        },        
+        {   
+            "id": 9,
+            "name": "rakocziTer",
+            "coords": "47.492641, 19.071207"
+        },
+        {   
+            "id": 10,
+            "name": "blahaLujzaTer",
+            "coords": "47.496652, 19.070141"
+        },
+        {   
+            "id": 11,
+            "name": "keletiPalyaudvarTer",
+            "coords": "47.499843, 19.081067"
+        },
+        {   
+            "id": 12,
+            "name": "nyugatiTer",
+            "coords": "47.510202, 19.056309"
+        },
+        {   
+            "id": 13,
+            "name": "oktogon",
+            "coords": "47.505280, 19.063441"
+        },
+        {   
+            "id": 14,
+            "name": "puskasFerencStadionTer",
+            "coords": "47.500135, 19.108274"
+        },
+        {   
+            "id": 15,
+            "name": "jaszaiMariTer",
+            "coords": "47.505658, 19.048314"
+        },
+        {   
+            "id": 16,
+            "name": "fovamTer",
+            "coords": "47.486761, 19.056931"
+        },
+        {   
+            "id": 17,
+            "name": "szentIstvanTer",
+            "coords": "47.500679, 19.052821"
+        },
+        {   
+            "id": 18,
+            "name": "clarkAdamTer",
+            "coords": "47.498335, 19.040477"
+        },
+        {   
+            "id": 19,
+            "name": "nadorTer",
+            "coords": "47.498593, 19.050062"
+        },
+        {   
+            "id": 20,
+            "name": "gellertTer",
+            "coords": "47.484030, 19.053424"
+        },
+        {   
+            "id": 21,
+            "name": "corvinTer",
+            "coords": "47.485796, 19.069973"
+        },
+        {   
+            "id": 22,
+            "name": "szenaTer",
+            "coords": "47.508519, 19.027444"
+        },
+        {   
+            "id": 23,
+            "name": "farkasretiTemeto",
+            "coords": "47.483820, 19.005199"
+        },
+        {   
+            "id": 24,
+            "name": "goncz",
+            "coords": "47.532691, 19.066699"
+        },
+        {   
+            "id": 25,
+            "name": "erzsebetTer",
+            "coords": "47.498388, 19.052424"
+        },
+        {   
+            "id": 26,
+            "name": "dozsaGyorgyUtTer",
+            "coords": "47.511718, 19.081057"
+        },
+        {   
+            "id": 27,
+            "name": "kalvariaTer",
+            "coords": "47.488738, 19.084615"
+        },
+        {   
+            "id": 28,
+            "name": "pestiAlsoRakpart",
+            "coords": "47.507712, 19.045039"
+        },
+        {   
+            "id": 29,
+            "name": "szilagyiDezsoTer",
+            "coords": "47.503836, 19.039361"
+        },
+        {   
+            "id": 30,
+            "name": "budaiVarTer",
+            "coords": "47.495526, 19.039939"
+        },
+        {   
+            "id": 31,
+            "name": "kozvagohid",
+            "coords": "47.467470, 19.076633"
+        },
+        {   
+            "id": 32,
+            "name": "hunyadiTer",
+            "coords": "47.505859, 19.066955"
+        },
+        {   
+            "id": 33,
+            "name": "bakatsTer",
+            "coords": "47.483050, 19.066269"
+        },
+        {   
+            "id": 34,
+            "name": "lehelTer",
+            "coords": "47.516389, 19.059862"
+        },
+        {   
+            "id": 35,
+            "name": "wesselenyiUtcaTer",
+            "coords": "47.500555, 19.068803"
+        },
+        {   
+            "id": 36,
+            "name": "tompaUtcaTer",
+            "coords": "47.481357, 19.073256"
+        },
+        {   
+            "id": 37,
+            "name": "fuveszkertTer",
+            "coords": "47.483795, 19.085654"
+        },
+        {   
+            "id": 38,
+            "name": "lagymanyosiTer",
+            "coords": "47.473452, 19.062410"
+        },
+        {   
+            "id": 39,
+            "name": "orsVezerTer",
+            "coords": "47.503216, 19.136271"
+        },
+        {   
+            "id": 40,
+            "name": "bah",
+            "coords": "47.487551, 19.024456"
+        },
+        {   
+            "id": 41,
+            "name": "etele",
+            "coords": "47.464624, 19.023464"
+        },
+        {   
+            "id": 42,
+            "name": "bikas",
+            "coords": "47.466055, 19.031333"
+        },
+        {   
+            "id": 43,
+            "name": "kopaszi",
+            "coords": "47.459395, 19.058454"
+        },
+        {   
+            "id": 44,
+            "name": "szent3sag",
+            "coords": "47.501699, 19.033801"
+        },
+        {   
+            "id": 45,
+            "name": "filozofus",
+            "coords": "47.489235, 19.039362"
+        },
+        {   
+            "id": 46,
+            "name": "feneketlen",
+            "coords": "47.477359, 19.041860"
+        },
+        {   
+            "id": 47,
+            "name": "csepel",
+            "coords": "47.423103, 19.066980"
+        },
+        {   
+            "id": 48,
+            "name": "boraros",
+            "coords": "47.479768, 19.066796"
+        },
+        {   
+            "id": 49,
+            "name": "kodaly",
+            "coords": "47.509692, 19.070044"
+        },
+        {   
+            "id": 50,
+            "name": "koki",
+            "coords": "47.461771, 19.149560"
+        },
+        {   
+            "id": 51,
+            "name": "becsi",
+            "coords": "47.548752, 19.029222"
+        },
+        {   
+            "id": 52,
+            "name": "erzsebetkilato",
+            "coords": "47.518204, 18.959364"
+        }
+    ]
+}
+
+
+
+
+
