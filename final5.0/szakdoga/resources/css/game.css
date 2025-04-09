@@ -1,0 +1,237 @@
+html, body {
+    height: 100%;
+    margin: 0;
+    font-family: sans-serif;
+    min-width: 550px;
+}
+
+#map {
+    height: 100%;
+    width: 100%;
+}
+
+#infos { 
+    position: absolute;  
+    top: 0;               
+    left: 0;              
+    width: 100%;          
+    height: 50px;  
+    z-index: 1000;       
+    background-color: rgba(0, 0, 0, 0.7);  
+    color: white;
+    display: flex;
+}
+
+#targetDiv {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: x-large;
+  font-weight: bolder;
+  width: 100%;
+  height: 50px;
+  text-align: center;
+}
+
+
+
+#difficultyDiv {
+  z-index: 2000;
+  position: fixed;
+  top: 0px;
+  right: 25px;
+  height: 50px;
+  display: flex; 
+  align-items: center; 
+  justify-content: center;
+
+}
+
+#homeDiv{
+  z-index: 2000;
+  position: fixed;
+  top: 0px;
+  left: 15px;
+  height: 50px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#homeButton{
+  background-color: #ccc;
+  color: rgb(0, 0, 0);
+  border: none;
+  padding: 2px 4px;
+  font-size: 1rem;
+  border-radius: 3px;
+  cursor: pointer;
+  transition: 0.3s ease, transform 0.1s ease;
+}
+#homeButton:hover {
+  background-color: #707070;
+}
+
+#homeButton:active {
+  transform: scale(0.95);
+}
+
+#percentageDiv{
+    z-index: 2000;
+    position: fixed;
+    top: 0px;
+    left: 100px;
+    height: 50px;
+    text-align: center
+}
+
+#guessedDiv{
+    z-index: 2000;
+    position: fixed;
+    top: 0px;
+    left: 150px;
+    height: 50px;
+    text-align: center
+}
+
+.switch {
+    position: relative;
+    display: inline-block;
+    width: 60px;
+    height: 34px;
+  }
+  
+
+.switch input {
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+.slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #ccc;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+.slider:before {
+  position: absolute;
+  content: "";
+  height: 26px;
+  width: 26px;
+  left: 4px;
+  bottom: 4px;
+  background-color: white;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+input:checked + .slider {
+  background-color: #707070;
+}
+
+input:focus + .slider {
+  box-shadow: 0 0 1px #2196F3;
+}
+
+input:checked + .slider:before {
+  -webkit-transform: translateX(26px);
+  -ms-transform: translateX(26px);
+  transform: translateX(26px);
+}
+
+.slider.round {
+  border-radius: 34px;
+}
+
+.slider.round:before {
+  border-radius: 50%;
+}
+
+.difficulty-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 12px;
+}
+
+.diff-label {
+    font-size: 1rem;
+    color: white;
+    font-weight: 500;
+    user-select: none;
+}
+
+
+.results-card {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: rgba(255, 255, 255, 0.07);
+  border: 1px solid rgba(255, 255, 255, 0.15);
+  backdrop-filter: blur(15px);
+  padding: 32px 40px;
+  border-radius: 20px;
+  z-index: 10000;
+  color: #2e2e2e;
+  font-family: 'Inter', sans-serif;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
+  min-width: 320px;
+  max-width: 90vw;
+  text-align: center;
+  opacity: 0;
+  transform: translate(-50%, -50%) scale(0.95);
+  transition: all 0.4s ease;
+}
+
+.results-card.show {
+  opacity: 1;
+  transform: translate(-50%, -50%) scale(1);
+}
+
+.results-card h2 {
+  margin-top: 0;
+  margin-bottom: 24px;
+  font-size: 1.75rem;
+  font-weight: 600;
+  color: #2e2e2e;
+}
+
+.results-actions {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 16px;
+  margin-top: 24px;
+}
+
+.results-btn {
+  background: rgba(255, 255, 255, 0.15);
+  border: 1px solid rgba(255, 255, 255, 0.25);
+  color: #2e2e2e;
+  font-size: 1rem;
+  font-weight: 500;
+  padding: 10px 24px;
+  border-radius: 10px;
+  cursor: pointer;
+  backdrop-filter: blur(6px);
+  transition: all 0.3s ease;
+  min-width: 130px;
+  text-align: center;
+}
+
+.results-btn:hover {
+  background: rgba(255, 255, 255, 0.3);
+  transform: scale(1.05);
+  border-color: rgba(255, 255, 255, 0.4);
+}
+

@@ -1,0 +1,29 @@
+databases:
+  - name: mysqldb
+    databaseName: laravel
+    user: laravel
+
+services:
+  - type: web
+    name: your-app-name
+    runtime: docker
+    env: node
+    buildCommand: ./build.sh
+    startCommand: ./start.sh
+    envVars:
+      - key: APP_ENV
+        value: production
+      - key: APP_KEY
+        generateValue: true
+      - key: DB_HOST
+        fromDatabase:
+          name: mysqldb
+          property: host
+      - key: DB_PASSWORD
+        fromDatabase:
+          name: mysqldb
+          property: password
+      - key: DB_USERNAME
+        fromDatabase:
+          name: mysqldb
+          property: user

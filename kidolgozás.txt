@@ -1,0 +1,24 @@
+ötletelés
+
+
+előkészítés
+kutatás
+elte geoinformatikai és trékészeti intézet -> Ungvári Zsuzsanna segített overpass turbot megismerni
+lekérdezést írtunk a goeJSON kinyeréséhez
+a koordináták megfordítására írtam egy python scriptet, ami mindkét adathalmazon lefutott
+
+
+
+arcgis - innen húzom a map layert
+
+panellum
+
+
+php artisan tinker
+
+	use App\Models\Player
+	Player::factory()->count(50)->create()
+
+minden modellel, de ehelyett mehet:
+
+php artisan db:seed

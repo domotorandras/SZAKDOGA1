@@ -4,3 +4,11 @@ area[name="Budapest"]->.budapest;
   nr["boundary"="administrative"]["admin_level"=10](area.budapest);
 );
 out geom;
+
+
+[out:json][timeout:25];
+area[name="Budapest"]->.budapest;
+(
+  nr["boundary"="administrative"]["admin_level"=9](area.budapest);
+);
+out geom;
