@@ -11,6 +11,6 @@ touch database/database.sqlite
 chmod 775 database/database.sqlite
 
 # Laravel setup
-/usr/bin/php artisan key:generate --force
-/usr/bin/php artisan migrate --force
-/usr/bin/php artisan optimize
+php artisan key:generate --force
+php artisan migrate --force
+php artisan optimize
