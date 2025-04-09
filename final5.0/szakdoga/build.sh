@@ -10,7 +10,3 @@ fi
 
 # Set permissions
 chmod 775 database/database.sqlite
-
-# Generate keys and optimize
-php artisan key:generate --force
-php artisan optimize:clear
