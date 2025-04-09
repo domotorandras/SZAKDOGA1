@@ -1,5 +1,5 @@
 databases:
-  - name: mysqldb
+  - name: sqlite
     databaseName: laravel
     user: laravel
 
@@ -17,13 +17,13 @@ services:
         generateValue: true
       - key: DB_HOST
         fromDatabase:
-          name: mysqldb
+          name: sqlite
           property: host
       - key: DB_PASSWORD
         fromDatabase:
-          name: mysqldb
+          name: sqlite
           property: password
       - key: DB_USERNAME
         fromDatabase:
-          name: mysqldb
+          name: sqlite
           property: user
