@@ -70,3 +70,16 @@ CMD ["./start.sh"]
 HEALTHCHECK --interval=30s --timeout=3s \
     CMD curl -f http://localhost/ || exit 1
 
+# Copy and make scripts executable
+COPY build.sh start.sh /usr/local/bin/
+RUN chmod +x /usr/local/bin/build.sh /usr/local/bin/start.sh
+
+# Set the working directory
+WORKDIR /var/www/html
+
+# Run build script during build phase
+RUN /usr/local/bin/build.sh
+
+# Start command (what Render runs)
+CMD ["/usr/local/bin/start.sh"]
+
